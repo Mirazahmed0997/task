@@ -73,8 +73,8 @@ const Incomplete = () => {
 
                                         {/* <TiAttachment ></TiAttachment> */}
                                         <label for="myfile"><TiAttachment></TiAttachment></label>
-                                        <input className='invisible' type="file" id="myfile" name="myfile"/>
-                                            <FaCalendarAlt /> <span className=" text-xs text-gray-400">30-12-2024</span>
+                                        <input  className=' hidden' type="file" id="myfile" name="myfile" />
+                                        <FaCalendarAlt /> <span className=" text-xs text-gray-400">30-12-2024</span>
 
                                     </div>
 
